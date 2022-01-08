@@ -1,0 +1,37 @@
+* {
+	font-family: Roboto;
+}
+
+body {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Section general styles */
+
+section {
+	width: 1153px;
+	height: 45;
+	margin: 0 auto;
+}
+
+section h1 {
+	font-size: 30px;
+    color: #616161;
+    font-weight: 400;
+	display: inline-block;
+	width: 1130px;
+    padding-bottom: 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+section span {
+    font-size: 18px;
+    color: #9B9595;
+    margin-right: 2px;
+}
+
+/* Color Section */
+
+.color-pallette {
+	display: inline-block;
+}
