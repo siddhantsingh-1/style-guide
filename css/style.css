@@ -9,7 +9,7 @@ body {
 /* Section general styles */
 
 section {
-	width: 1153px;
+	width: 1160px;
 	height: 45;
 	margin: 0 auto;
 }
@@ -32,6 +32,68 @@ section span {
 
 /* Color Section */
 
+.container {
+	display: flex;
+	width: 1000px;
+	height: 230px;
+	margin-left: 50px;
+	margin-top: 20px;
+	justify-content: space-between;
+}
+
+.color-container {
+	display: flex;
+}
+
 .color-pallette {
-	display: inline-block;
+	background-color: #fff;
+	position: relative;
+	width: 286px;
+	height: 166px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.color-container div {
+	width: 95.33px;
+	height: 83.44px;
+} 
+
+.color-pallette h3 {
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-bottom: 3px;
+}
+
+.color-pallette p{
+	margin: 0 10px;
+	padding: 0;
+	font-size: 13px;
+}
+
+.gray-light {
+	background-color: #4d4d4d;
+}
+.gray-med {
+	background-color: #333333;
+}
+.gray-dark {
+	background-color: #191919;
+}
+.lightgray-light {
+	background-color: #f8f8f8;
+}
+.lightgray-med {
+	background-color: #f4f4f4;
+}
+.lightgray-dark {
+	background-color: #ededed;
+}
+.aqua-light {
+	background-color: rgb(77, 224, 180);
+}
+.aqua-med {
+	background-color: #00d394;
+}
+.aqua-dark  {
+	background-color: #00b385;
 }
