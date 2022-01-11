@@ -16,18 +16,18 @@ section {
 
 section h1 {
 	font-size: 30px;
-    color: #616161;
-    font-weight: 400;
+	color: #616161;
+	font-weight: 400;
 	display: inline-block;
 	width: 1130px;
-    padding-bottom: 10px;
+	padding-bottom: 10px;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 section span {
-    font-size: 18px;
-    color: #9B9595;
-    margin-right: 2px;
+	font-size: 18px;
+	color: #9b9595;
+	margin-right: 2px;
 }
 
 /* Color Section */
@@ -56,7 +56,7 @@ section span {
 .color-container div {
 	width: 95.33px;
 	height: 83.44px;
-} 
+}
 
 .color-pallette h3 {
 	margin-top: 5px;
@@ -64,7 +64,7 @@ section span {
 	margin-bottom: 3px;
 }
 
-.color-pallette p{
+.color-pallette p {
 	margin: 0 10px;
 	padding: 0;
 	font-size: 13px;
@@ -94,6 +94,50 @@ section span {
 .aqua-med {
 	background-color: #00d394;
 }
-.aqua-dark  {
+.aqua-dark {
 	background-color: #00b385;
 }
+
+/* Font Families Section */
+
+.font-container {
+	display: flex;
+	width: 1000px;
+	color: #fff;
+	justify-content: space-between;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.font-card {
+	width: 480px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: flex;
+}
+
+.font-card .item-1 {
+	width: 100px;
+}
+
+.font-card ul {
+	list-style: none;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.dark-bg {
+	background-color: #191919;
+}
+
+.light-bg {
+	background-color: #333333;
+}
+
+
