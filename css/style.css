@@ -307,6 +307,10 @@ section span {
 
 /* Buttons Section */
 
+.buttons {
+	margin-bottom: 100px;
+}
+
 .buttons .grid {
 	grid-template: auto / 1fr 1fr;
 }
