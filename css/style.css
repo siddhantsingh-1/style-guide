@@ -6,6 +6,10 @@ body {
 	background-color: rgba(0, 0, 0, 0.1);
 }
 
+.grid {
+	display: grid;
+}
+
 /* Section general styles */
 
 section {
@@ -215,4 +219,84 @@ section span {
 
 .space-mono *{
 	font-family: 'Space Mono', monospace;
+}
+
+/* Typography Section */
+
+.typo .grid {
+	grid-template: auto / 1fr 1fr;
+}
+
+.grid-item-1 span,
+.grid-item-1 strong {
+	display: block;
+}
+
+.grid-item-1 *{
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+.grid span{
+	font-weight: 500;
+	color: #555353;
+	font-size: 18px;
+}
+
+.grid-item-2 {
+	margin-top: 15px;
+	margin-left: 30px;
+}
+
+.grid-item-2 p {
+	font-size: 15px;
+	color: #616161;
+	width: 350px;
+	margin-top: 30px;
+}
+
+#text-style {
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+#text-style li {
+	display: inline-block;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+
+.grid-item-2 ul,
+.grid-item-2 ol {
+	padding-left: 0;
+	margin-left: 20px;
+}
+
+.grid-item-2 ul {
+	margin-top: 20px;
+}
+
+
+.h1 {
+	font-size: 60px;
+}
+.h2 {
+	font-size: 36px;
+}
+.h3 {
+	font-size: 28px;
+}
+.h4 {
+	font-size: 24px;
+}
+.h5 {
+	font-size: 20px;
+}
+.h6 {
+	font-size: 18px;
+}
+
+.link {
+	color: #00BE85;
+	text-decoration: underline;
 }
