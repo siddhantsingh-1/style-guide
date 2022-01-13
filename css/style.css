@@ -10,6 +10,10 @@ body {
 	display: grid;
 }
 
+.flex {
+	display: flex;
+}
+
 /* Section general styles */
 
 section {
@@ -299,4 +303,110 @@ section span {
 .link {
 	color: #00BE85;
 	text-decoration: underline;
+}
+
+/* Buttons Section */
+
+.buttons .grid {
+	grid-template: auto / 1fr 1fr;
+}
+
+.styling {
+	margin-left: 30px;
+}
+
+.gallery {
+	margin-top: 50px;
+	grid-template: repeat(3, 55px) / 187px 187px;
+	width: 470px;
+	grid-gap: 20px 80px;
+}
+
+.gallery div {
+	width: 187px;
+	height: 55px;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#normal-button {
+	background-color: white;
+	border: 1px solid #9B9595;
+}
+
+#normal-button strong {
+	color: black;
+}
+
+.gallery-item strong {
+	display: block;
+	position: relative;
+	top: 30%;
+}
+
+.gallery * {
+	color: white;
+}
+
+.sizes {
+	margin-left: 30px;
+}
+
+.size-template {
+	flex-direction: column;
+	margin-top: 50px;
+	height: 205px;
+	justify-content: space-between;
+}
+
+.large {
+	width: 355px;
+}
+
+.large h2 {
+	font-size: 23px;
+	margin-bottom: 0;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.large p {
+	font-size: 13px;
+	margin-top: 2px;
+	margin-left: 15px;
+}
+
+.med {
+	width: 250px;
+}
+.med h2 {
+	font-size: 20px;
+	margin-bottom: 0;
+	margin-left: 13px;
+	margin-top:  11px;
+}
+.med p {
+	font-size: 12px;
+	margin-top: 2px;
+	margin-left: 13px;
+}
+
+.small {
+	width: 150px;
+}
+.small h2 {
+	font-size: 18px;
+	margin-bottom: 0;
+	margin-left: 12px;
+}
+.small p {
+	font-size: 11px;
+	margin-top: 2px;
+	margin-left: 12px;
+}
+
+.flex-item {
+	background-color: #C4C4C4;
+	height: 60px;
+	border-radius: 6px;
 }
